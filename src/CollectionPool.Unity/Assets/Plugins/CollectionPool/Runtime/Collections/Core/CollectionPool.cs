@@ -87,7 +87,7 @@ namespace Links.CollectionPool.Collections.Core
 		{
 			m_FastItem = null;
 			var items = m_Items;
-			Array.Clear(items);
+			Array.Clear(items, 0, items.Length);
 		}
 	}
 }
