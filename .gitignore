@@ -480,3 +480,22 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Unity development project
+src/CollectionPool.Unity/[Ll]ibrary/
+src/CollectionPool.Unity/[Tt]emp/
+src/CollectionPool.Unity/[Oo]bj/
+src/CollectionPool.Unity/[Bb]uild/
+src/CollectionPool.Unity/[Bb]uilds/
+src/CollectionPool.Unity/[Ll]ogs/
+src/CollectionPool.Unity/[Uu]ser[Ss]ettings/
+src/CollectionPool.Unity/*.csproj
+src/CollectionPool.Unity/*.sln
+src/CollectionPool.Unity/*.slnx
+
+# Keep Unity mefa file
+!src/CollectionPool.Unity/**/**.meta
+
+# Keep Unity package manifest
+!src/CollectionPool.Unity/Packages/
+!src/CollectionPool.Unity/Packages/**
