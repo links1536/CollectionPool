@@ -1,0 +1,5 @@
+{
+  "name": "Links.CollectionPool.Runtime",
+  "rootNamespace": "Links.CollectionPool",
+  "noEngineReferences": true
+}

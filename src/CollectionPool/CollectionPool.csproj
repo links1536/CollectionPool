@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="../CollectionPool.Unity/Assets/Plugins/CollectionPool/Runtime/**/*.cs" />
+  </ItemGroup>
+
 </Project>

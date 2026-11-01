@@ -6,7 +6,7 @@ namespace Links.CollectionPool.Collections.Core
 	/// <summary>
 	/// 型ごとのプールの実体を保持する内部クラス
 	/// </summary>
-	internal static class CollectionPoolStorage
+	public static class CollectionPoolStorage
 	{
 		static readonly ConcurrentBag<ICollectionPool> m_CollectionPoolList = new ConcurrentBag<ICollectionPool>();
 
