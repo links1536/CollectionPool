@@ -499,3 +499,6 @@ src/CollectionPool.Unity/*.slnx
 # Keep Unity package manifest
 !src/CollectionPool.Unity/Packages/
 !src/CollectionPool.Unity/Packages/**
+
+# csc.rsp
+!csc.rsp
